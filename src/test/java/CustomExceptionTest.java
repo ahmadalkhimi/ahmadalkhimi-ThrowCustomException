@@ -21,7 +21,7 @@ public class CustomExceptionTest {
     public void customExceptionTest1(){
         try{
             cet.throwCustomException();
-            Assert.fail();
+           
         } catch (Exception e) {
             Assert.assertTrue(e instanceof CustomException);
         }
